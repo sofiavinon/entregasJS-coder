@@ -11,8 +11,8 @@ const mostrarConsulta = () => {
 
 const consulta = new c({
     nombre : document.getElementById("name").value,
-    categoria : document.getElementById("email").value,
-    precio : document.getElementById("coment").value,
+    email : document.getElementById("email").value,
+    comentario : document.getElementById("coment").value,
 })
 
     const consultaP = document.createElement("div");
